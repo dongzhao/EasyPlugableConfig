@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>common-config</artifactId>
+    <groupId>dzhao.common.config</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <groupId>dzhao.common.config</groupId>
+  <artifactId>config-service-example</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>config-service-example</name>
+
+  <dependencies>
+      <dependency>
+          <groupId>dzhao.common.config</groupId>
+          <artifactId>config-api</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+          <groupId>dzhao.common.config</groupId>
+          <artifactId>property-plugin</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+          <groupId>dzhao.common.config</groupId>
+          <artifactId>xml-plugin</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+          <groupId>dzhao.common.config</groupId>
+          <artifactId>ini-plugin</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
+  </dependencies>
+</project>
